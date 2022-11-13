@@ -4,9 +4,9 @@ body {
 }
 
 * {
-  touch-action: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
-
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
