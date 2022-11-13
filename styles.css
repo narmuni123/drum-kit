@@ -3,6 +3,10 @@ body {
   background-color: #283149;
 }
 
+* {
+  touch-action: manipulation;
+}
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
@@ -18,37 +22,30 @@ footer {
 
 .w {
   background-image: url('images/tom1.png');
-
 }
 
 .a {
   background-image: url('images/tom2.png');
-  touch-action: manipulation;
 }
 
 .s {
   background-image: url('images/tom3.png');
-  touch-action: manipulation;
 }
 
 .d {
   background-image: url('images/tom4.png');
-  touch-action: manipulation;
 }
 
 .j {
   background-image: url('images/snare.png');
-  touch-action: manipulation;
 }
 
 .k {
   background-image: url('images/crash.png');
-  touch-action: manipulation;
 }
 
 .l {
   background-image: url('images/kick.png');
-  touch-action: manipulation;
 }
 
 .set {
